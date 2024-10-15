@@ -7,23 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0708C32D2CA28BDC00364B49 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 0708C32C2CA28BDC00364B49 /* Alamofire */; };
 		073554272C8830B800B3DFE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073554262C8830B800B3DFE5 /* AppDelegate.swift */; };
 		073554292C8830B800B3DFE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073554282C8830B800B3DFE5 /* SceneDelegate.swift */; };
-		0735542B2C8830B800B3DFE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0735542A2C8830B800B3DFE5 /* ViewController.swift */; };
 		0735542E2C8830B800B3DFE5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0735542D2C8830B800B3DFE5 /* Base */; };
 		073554302C8830BA00B3DFE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0735542F2C8830BA00B3DFE5 /* Assets.xcassets */; };
 		073554332C8830BA00B3DFE5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 073554322C8830BA00B3DFE5 /* Base */; };
+		073BCBD32C9946BD00C7F5A7 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073BCBD22C9946BD00C7F5A7 /* DetailVC.swift */; };
+		073BCBD52C99505000C7F5A7 /* CollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073BCBD42C99505000C7F5A7 /* CollectionVC.swift */; };
+		073BCBD82C99518000C7F5A7 /* CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073BCBD62C99518000C7F5A7 /* CollectionCell.swift */; };
+		073BCBD92C99518000C7F5A7 /* CollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 073BCBD72C99518000C7F5A7 /* CollectionCell.xib */; };
+		07434D3D2C92C7A000E9999E /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07434D3C2C92C7A000E9999E /* ApiManager.swift */; };
+		0778DCC42CAB312B00DB7131 /* ConstantStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0778DCC32CAB312B00DB7131 /* ConstantStrings.swift */; };
+		07AF46252C90154E004272E1 /* TableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AF46242C90154E004272E1 /* TableVC.swift */; };
+		07AF46292C901603004272E1 /* JokeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07AF46282C901603004272E1 /* JokeCell.xib */; };
+		07AF462A2C901603004272E1 /* JokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AF46272C901603004272E1 /* JokeCell.swift */; };
+		07BBF99A2C93632400A46F13 /* JokeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BBF9992C93632400A46F13 /* JokeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		073554232C8830B800B3DFE5 /* table-tea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "table-tea.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		073554262C8830B800B3DFE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		073554282C8830B800B3DFE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0735542A2C8830B800B3DFE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0735542D2C8830B800B3DFE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0735542F2C8830BA00B3DFE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		073554322C8830BA00B3DFE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		073554342C8830BA00B3DFE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		073BCBD22C9946BD00C7F5A7 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		073BCBD42C99505000C7F5A7 /* CollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionVC.swift; sourceTree = "<group>"; };
+		073BCBD62C99518000C7F5A7 /* CollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCell.swift; sourceTree = "<group>"; };
+		073BCBD72C99518000C7F5A7 /* CollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionCell.xib; sourceTree = "<group>"; };
+		07434D3C2C92C7A000E9999E /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		0778DCC32CAB312B00DB7131 /* ConstantStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantStrings.swift; sourceTree = "<group>"; };
+		07AF46242C90154E004272E1 /* TableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableVC.swift; sourceTree = "<group>"; };
+		07AF46272C901603004272E1 /* JokeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeCell.swift; sourceTree = "<group>"; };
+		07AF46282C901603004272E1 /* JokeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JokeCell.xib; sourceTree = "<group>"; };
+		07BBF9992C93632400A46F13 /* JokeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0708C32D2CA28BDC00364B49 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +76,72 @@
 		073554252C8830B800B3DFE5 /* table-tea */ = {
 			isa = PBXGroup;
 			children = (
+				0778DCC22CAB307200DB7131 /* Constants */,
+				07BBF99C2C93637800A46F13 /* Services */,
+				07BBF9982C93631100A46F13 /* Models */,
+				07BBF9972C93630A00A46F13 /* Views */,
+				07BBF9962C9362F800A46F13 /* Controllers */,
 				073554262C8830B800B3DFE5 /* AppDelegate.swift */,
 				073554282C8830B800B3DFE5 /* SceneDelegate.swift */,
-				0735542A2C8830B800B3DFE5 /* ViewController.swift */,
-				0735542C2C8830B800B3DFE5 /* Main.storyboard */,
 				0735542F2C8830BA00B3DFE5 /* Assets.xcassets */,
-				073554312C8830BA00B3DFE5 /* LaunchScreen.storyboard */,
 				073554342C8830BA00B3DFE5 /* Info.plist */,
 			);
 			path = "table-tea";
+			sourceTree = "<group>";
+		};
+		0778DCC22CAB307200DB7131 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				0778DCC32CAB312B00DB7131 /* ConstantStrings.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		07BBF9962C9362F800A46F13 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				07BBF99B2C93635900A46F13 /* Cells */,
+				07AF46242C90154E004272E1 /* TableVC.swift */,
+				073BCBD22C9946BD00C7F5A7 /* DetailVC.swift */,
+				073BCBD42C99505000C7F5A7 /* CollectionVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		07BBF9972C93630A00A46F13 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				073554312C8830BA00B3DFE5 /* LaunchScreen.storyboard */,
+				0735542C2C8830B800B3DFE5 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		07BBF9982C93631100A46F13 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				07BBF9992C93632400A46F13 /* JokeModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		07BBF99B2C93635900A46F13 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				07AF46272C901603004272E1 /* JokeCell.swift */,
+				07AF46282C901603004272E1 /* JokeCell.xib */,
+				073BCBD62C99518000C7F5A7 /* CollectionCell.swift */,
+				073BCBD72C99518000C7F5A7 /* CollectionCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		07BBF99C2C93637800A46F13 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				07434D3C2C92C7A000E9999E /* ApiManager.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +160,9 @@
 			dependencies = (
 			);
 			name = "table-tea";
+			packageProductDependencies = (
+				0708C32C2CA28BDC00364B49 /* Alamofire */,
+			);
 			productName = "table-tea";
 			productReference = 073554232C8830B800B3DFE5 /* table-tea.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +191,9 @@
 				Base,
 			);
 			mainGroup = 0735541A2C8830B800B3DFE5;
+			packageReferences = (
+				0708C32B2CA28BDC00364B49 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 073554242C8830B800B3DFE5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +208,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				073BCBD92C99518000C7F5A7 /* CollectionCell.xib in Resources */,
 				073554302C8830BA00B3DFE5 /* Assets.xcassets in Resources */,
 				073554332C8830BA00B3DFE5 /* Base in Resources */,
+				07AF46292C901603004272E1 /* JokeCell.xib in Resources */,
 				0735542E2C8830B800B3DFE5 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +223,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0735542B2C8830B800B3DFE5 /* ViewController.swift in Sources */,
+				0778DCC42CAB312B00DB7131 /* ConstantStrings.swift in Sources */,
 				073554272C8830B800B3DFE5 /* AppDelegate.swift in Sources */,
+				07AF462A2C901603004272E1 /* JokeCell.swift in Sources */,
+				07434D3D2C92C7A000E9999E /* ApiManager.swift in Sources */,
+				073BCBD52C99505000C7F5A7 /* CollectionVC.swift in Sources */,
+				073BCBD32C9946BD00C7F5A7 /* DetailVC.swift in Sources */,
+				07BBF99A2C93632400A46F13 /* JokeModel.swift in Sources */,
+				07AF46252C90154E004272E1 /* TableVC.swift in Sources */,
+				073BCBD82C99518000C7F5A7 /* CollectionCell.swift in Sources */,
 				073554292C8830B800B3DFE5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,6 +453,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0708C32B2CA28BDC00364B49 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0708C32C2CA28BDC00364B49 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0708C32B2CA28BDC00364B49 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0735541B2C8830B800B3DFE5 /* Project object */;
 }
